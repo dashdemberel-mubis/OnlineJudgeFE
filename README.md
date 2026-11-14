@@ -16,7 +16,7 @@
 + User-friendly operation
 + Quite beautiful：)
 
-## Get Started
+## Get Started - монгол болгое
 
 Install nodejs **v8.12.0** first.
 
