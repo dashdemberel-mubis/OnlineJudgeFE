@@ -8,6 +8,27 @@
 
 >### A multiple pages app built for OnlineJudge. [Demo](https://qduoj.com)
 
+## OnlineJudge 1.16.0 шинэчлэлт (Чухал)
+
+- Суурь image: `python:3.8-alpine3.14` → `python:3.12-alpine`.
+- Шалгагчийн хэлний хувилбарууд:
+
+  | Хэл | Хувилбар |
+  | --- | --- |
+  | C/C++ | GCC 13 |
+  | Java | Temurin 21 |
+  | Python 2 | **Хасагдсан** |
+  | Python 3 | CPython 3.12 |
+  | Golang | Go 1.22 |
+  | Node.js | Node.js 20 |
+  | PHP | **Түр хасагдсан** |
+
+Хэрэв таны ажиллуулдаг OnlineJudge (QingdaoU)-д энэ шинэчлэлт хамаатай бол дараахыг анхаарна уу:
+
+- Python 2 болон PHP-ээр өмнө илгээсэн бодолтуудыг дахин шалгахад ажиллахгүй. Эдгээр хэлээр илгээлт байгаа бол хуучин хувилбараа ашигласаар байх эсвэл тэдгээр бодолтыг дахин шалгахаас зайлсхийх хэрэгтэй.
+- GCC 13, Java 21, Python 3.12-д хувилбарын өөрчлөлт орсон. Хуучин C++ эсвэл Python 3 бодолт зарим тохиолдолд compile/runtime алдаа өгч болно (жишээлбэл, Python 3.12-д `distutils`, `imp` модулиуд хасагдсан).
+- Шинэчлэхээс өмнө өгөгдлийн сан болон `data` хавтсаа нөөцлөөрэй.
+
 ## Features
 
 + Webpack3 multiple pages with bundle size optimization
