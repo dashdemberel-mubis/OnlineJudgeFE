@@ -20,7 +20,7 @@
 
 Install nodejs **v8.12.0** first.
 
-### Linux
+### Linux - ubuntu 24.04 
 
 ```bash
 npm install
