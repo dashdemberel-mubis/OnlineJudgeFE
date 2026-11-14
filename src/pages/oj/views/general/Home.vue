@@ -7,7 +7,7 @@
           <text x="40" y="52" text-anchor="middle" font-size="38" font-weight="bold" fill="#fff" font-family="monospace">&lt;/&gt;</text>
         </svg>
         <h1 class="hero-title">Online<span>Judge</span></h1>
-        <p class="hero-subtitle">Програмчлалын бодлого бодож, чадвараа сорь!</p>
+        <p class="hero-subtitle">"<strong>ӨРСӨЛДӨӨНТ ПРОГРАММ</strong>" СОНИРХОГЧ БҮХЭНД ЗОРИЛУАВ. </p>
         <div class="hero-stats">
           <div class="hero-stat">
             <Icon type="ios-keypad" size="24"></Icon>
@@ -23,7 +23,7 @@
           </div>
         </div>
         <Button type="primary" size="large" class="hero-btn" @click="$router.push('/problem')">
-          Бодлого бодох
+         Эхэлцгээе ... 
           <Icon type="arrow-right-c"></Icon>
         </Button>
       </div>
