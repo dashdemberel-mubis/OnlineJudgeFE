@@ -4,7 +4,7 @@
       <el-card class="admin-info">
         <el-row :gutter="20">
           <el-col :span="10">
-            <img class="avatar" :src="profile.avatar"/>
+            <img class="avatar" src="@/assets/admin-profile.png" alt="Admin profile">
           </el-col>
           <el-col :span="14">
             <p class="admin-info-name">{{user.username}}</p>
@@ -193,7 +193,11 @@
       color: #409EFF;
     }
     .avatar {
+      width: 120px;
+      height: 120px;
       max-width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
     }
     .last-info {
       &-title {

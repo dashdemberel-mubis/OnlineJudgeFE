@@ -2,10 +2,7 @@
   <div>
     <div class="hero-section">
       <div class="hero-content">
-        <svg class="hero-logo" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-          <rect x="4" y="4" width="72" height="72" rx="16" fill="#1e88e5"/>
-          <text x="40" y="52" text-anchor="middle" font-size="38" font-weight="bold" fill="#fff" font-family="monospace">&lt;/&gt;</text>
-        </svg>
+        <img class="hero-logo" src="../../../../assets/logo.png" alt="MM30X">
         <h1 class="hero-title">Online<span>Judge</span></h1>
         <p class="hero-subtitle">"<strong>ӨРСӨЛДӨӨНТ ПРОГРАММ</strong>" СОНИРХОГЧ БҮХЭНД ЗОРИЛУАВ. </p>
         <div class="hero-stats">
@@ -125,7 +122,7 @@
   }
   .hero-logo {
     width: 80px;
-    height: 80px;
+    height: auto;
     margin-bottom: 20px;
     filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
   }
